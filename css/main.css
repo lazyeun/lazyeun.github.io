@@ -177,9 +177,11 @@ body{overflow-x: hidden;}
 }
 
 /*포트폴리오*/
-.section2{padding-top:100px;}
+.section2{
+    padding-top:100px;
+}
 .portfolio-item-group{
-    padding-top:20px;
+    padding-top:40px;
     display:grid;
     grid-template-columns: repeat(4,300px);
     grid-gap: 80px;
