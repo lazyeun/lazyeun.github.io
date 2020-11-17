@@ -1,24 +1,239 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <title>lazyeun's web portfolio</title>
-    <style>
-        *{position:relative; margin:0; padding:0;}
-        h1{text-align: center; padding:20px;}
-        a{  color:gray; diaplay:block; border: 1px solid gray;
-            padding:20px; margin:20px;
-            background:honeydew; text-align: center;
-          }
-        a:link{text-decoration: none;}
-        a:visited{color:gray;}
-    </style>
+    <meta charset="UTF-8">    
+    <title>lazyeun's web porfolio</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery.easypiechart.js"></script>
+    <script src="js/main.js"></script>
 </head>
 <body>
-    <h1>내가 만든 파일</h1>
-        <a href="http://geekgirl.dothome.co.kr/hanyul/index.html" target="_blank">한율</a>        
-        <a href="http://geekgirl.dothome.co.kr/bootstrap/index.html" target="_blank">테라로사</a>
-        <a href="http://geekgirl.dothome.co.kr/deeps/index.html" target="_blank">DEEPS</a>
-        <a href="http://geekgirl.dothome.co.kr/ksure/index.html" target="_blank">한국무역보험공사</a>
+<!-- 메뉴바   -->
+    <header class="header">
+        <div class="wrap menuwrap">
+            <h3 class="logo">LAZYEUN'S WEB PORTFOLIO</h2>
+            <div class="menu-group">
+                <ul class="menu">
+                    <li class="menu-li"><a href="#">PORTFOLIO</a></li>
+                    <li class="menu-li"><a href="#">SKILLS</a></li>
+                    <li class="menu-li"><a href="#">ABOUT</a></li>
+                    <li class="menu-li"><a href="#">CONTACT</a></li>
+                </ul>            
+                <span class="menu-line"></span>
+            </div>
+        </div>
+    </header>
+    <!-- 메인  -->
+    <section class="section section1">
+        <div class="main-contain">
+            <div class="left-title"><span>LAZYEUN'S WEB PORTFOLIO</span></div>
+            <div class="center-group">
+                <div class="main-txt-box">
+                    <h1 class="main-txt-title">HELLO, WORLD! :)</h1>
+                    <p class="typing"></p>
+                    <p class="main-txt">아름답고 시멘틱한 웹을 구현하기 위해<br>오늘도 고민하는 UI개발자 이은영입니다.</p>
+                </div>
+                <div class="keyword-box-group">
+                    <div class="keyword-box"><span>web publishing</span></div>
+                    <div class="keyword-box"><span>ui/ux design</span></div>
+                    <div class="keyword-box"><span>frontend develop</span></div>
+                </div>
+                <div class="scroll-box">
+                    <span class="scroll-line"></span>
+                    <span class="scroll-title">scroll down</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 포트폴리오-->
+    <section class="section section2">
+        <div class="wrap">
+            <h2 class="section-title">portfolio</h2>
+            <div class="portfolio-item-group">
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="img/portfolio1.jpg" alt="한율 리디자인">
+                    </div>
+                    <div class="portfolio-text-group">
+                        <div class="p-text-title"><span>한율 브랜드 사이트 리디자인</span></div>
+                        <div class="p-text"><span>기획</span><span>100%</span></div>
+                        <div class="p-text"><span>디자인</span><span>100%</span></div>
+                        <div class="p-text"><span>퍼블리싱</span><span>100%</span></div>
+                    </div>
+                    <div class="go-detail-btn"><span><a href="http://geekgirl.dothome.co.kr/hanyul/index.html" target="_blank">상세보기</a></span></div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="img/portfolio2.jpg" alt="deeps 클론코딩">
+                    </div>
+                    <div class="portfolio-text-group">
+                        <div class="p-text-title"><span>DEEPS 브랜드 사이트 클론코딩</span></div>
+                        <div class="p-text"><span>퍼블리싱</span><span>100%</span></div>
+                    </div>
+                    <div class="go-detail-btn"><span><a href="http://geekgirl.dothome.co.kr/deeps/index.html" target="_blank">상세보기</a></span></div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="img/portfolio3.jpg" alt="테라로사 리디자인">
+                    </div>
+                    <div class="portfolio-text-group">
+                        <div class="p-text-title"><span>테라로사 사이트 리디자인</span></div>
+                        <div class="p-text"><span>기획</span><span>100%</span></div>
+                        <div class="p-text"><span>디자인</span><span>100%</span></div>
+                        <div class="p-text"><span>퍼블리싱</span><span>100%</span></div>
+                    </div>
+                    <div class="go-detail-btn"><span><a href="http://geekgirl.dothome.co.kr/bootstrap/index.html" target="_blank">상세보기</a></span></div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="img/portfolio4.jpg" alt="한국무역보험공사 리디자인">
+                    </div>
+                    <div class="portfolio-text-group">
+                        <div class="p-text-title"><span>한국무역보험공사 사이트 리디자인</span></div>
+                        <div class="p-text"><span>기획</span><span>100%</span></div>
+                        <div class="p-text"><span>디자인</span><span>100%</span></div>
+                        <div class="p-text"><span>퍼블리싱</span><span>100%</span></div>
+                    </div>
+                    <div class="go-detail-btn"><span><a href="http://geekgirl.dothome.co.kr/ksure/index.html" target="_blank">상세보기</a></span></div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="img/portfolio1.jpg" alt="개인 사이트 디자인">
+                    </div>
+                    <div class="portfolio-text-group">
+                        <div class="p-text-title"><span>개인 포트폴리오 사이트 디자인</span></div>
+                        <div class="p-text"><span>기획</span><span>100%</span></div>
+                        <div class="p-text"><span>디자인</span><span>100%</span></div>
+                        <div class="p-text"><span>퍼블리싱</span><span>100%</span></div>
+                    </div>
+                    <div class="go-detail-btn"><span><a href="http://lazyeun.github.io" target="_blank">상세보기</a></span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  skills-->
+    <section class="section section3">
+        <div class="wrap">
+            <h2 class="section-title">skills</h2>
+            <div class="skill-item-group">
+                <div class="skill-item">
+                    <div class="skill-chart-circle chart1" data-percent="90">
+                        <span class="title">90%</span>
+                    </div>
+                    <div class="skill-title">
+                        <span class="skill-txt">html/css</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-chart-circle chart2" data-percent="80">
+                        <span class="title">80%</span>
+                    </div>
+                    <div class="skill-title">
+                        <span class="skill-txt">jquery</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-chart-circle chart3" data-percent="50">
+                        <span class="title">50%</span>
+                    </div>
+                    <div class="skill-title">
+                        <span class="skill-txt">javascript</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-chart-circle chart4" data-percent="50">
+                        <span class="title">50%</span>
+                    </div>
+                    <div class="skill-title">
+                        <span class="skill-txt">photoshop</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-chart-circle chart5" data-percent="80">
+                        <span class="title">80%</span>
+                    </div>
+                    <div class="skill-title">
+                        <span class="skill-txt">java/jsp/oracle</span>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about-->
+    <section class="section section4">
+        <div class="wrap">
+            <h2 class="section-title">about</h2>
+            <div class="about-group">
+                <div class="about-box">
+                    <div class="academic">
+                        <h4>학력</h4>
+                        <p>2007.03 ~ 2011.02 용인대학교 경영정보학과 졸업</p>
+                        <p>2004.03 ~ 2007.02 연수여자고등학교 졸업</p>
+                    </div>
+                    <div class="career">
+                        <h4>경력</h4>
+                        <p>2019.12 ~ 2020.05 더시스템스코리아, 티머니 단말운영시스템 유지보수</p>
+                        <p>2017.01 ~ 2019.07 (주)엔디에스, 한국무역보험공사 네오키스 시스템 유지보수</p>
+                        <p>2016.10 ~ 2016.12 토피아정보기술, 한국무역보험공사 네오키스 시스템 프로세스 분석 및 FP산정</p>
+                        <p>2014.02 ~ 2015.12 아이캔매니지먼트, 아모레퍼시픽 외 기업 SI/SM 프로젝트 수행</p>
+                    </div>
+                    <div class="edu">
+                        <h4>교육이수</h4>
+                        <p>2020.07 ~ 2020.12 웹디자인 &amp; 퍼블리셔 UI/UX 전문가 과정, 그린컴퓨터아카데미 인천</p>
+                        <p>2013.05 ~ 2013.10 Hybrid Web App 전문가 과정, 쌍용교육센터</p>
+                    </div>
+                    <div class="license">
+                        <h4>자격증</h4>
+                        <p>2010.08 정보처리기사</p>
+                    </div>
+                </div>
+                <div class="about-box">
+                   <div class="about-pic">
+                       <img src="img/lee.jpg" alt="ley">
+                   </div>
+                    <div class="about-info">
+                        <p>이은영</p>
+                        <p>인천광역시 부평구 부평동</p>
+                        <p>1989. 01. 10</p>
+                    </div>
+                    <div class="about-keyword">
+                        <span class="keyword-bg"></span>
+                        <p>keywords &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#꼼꼼 #성실 #책임감있는 #적응력이 빠른 #노력파</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact-->
+    <section class="section section5">
+        <div class="wrap">
+           <h2 class="section-title">contact</h2>
+            <div class="addr-group">
+                <div class="addr">
+                    <h5 class="addr-title">phone number</h5>
+                    <span>010 3224 4837</span>
+                </div>
+                <div class="addr">
+                    <h5 class="addr-title">e-mail</h5>
+                    <span class="email">lazyeun@gmail.com</span>                
+                </div>
+                <div class="addr">
+                    <h5 class="addr-title">location</h5>
+                    <span>bupyeong-dong, incheon</span>                
+                </div>
+            </div>
+            <div class="foot-msg">
+                <span>made by lazyeun 2020 with love</span>
+            </div>
+        </div>
+    </section>
+    <!-- top 버튼  -->
+    <div class="top-btn">
+        <span><a href="#">top</a></span>
+    </div>
 </body>
 </html>
