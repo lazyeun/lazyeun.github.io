@@ -144,6 +144,32 @@ $(document).ready(function(){
        $("html, body").stop().animate({scrollTop:0},500);
     });
     
+    //포트폴리오 바로가기
+    $(".hanyul").click(function(){
+        var openNewWin = window.open("about:blank");
+        openNewWin.location.href="http://geekgirl.dothome.co.kr/hanyul/index.html";
+    });
+    $(".deeps").click(function(){
+        var openNewWin = window.open("about:blank");
+        openNewWin.location.href="http://geekgirl.dothome.co.kr/deeps/index.html";
+        
+    });
+    $(".terarosa").click(function(){
+        var openNewWin = window.open("about:blank");
+        openNewWin.location.href="http://geekgirl.dothome.co.kr/bootstrap/index.html";
+        
+    });
+    $(".ksure").click(function(){
+        var openNewWin = window.open("about:blank");
+        openNewWin.location.href="http://geekgirl.dothome.co.kr/ksure/index.html";
+        
+    });
+    $(".lazyeun").click(function(){
+        var openNewWin = window.open("about:blank");
+        openNewWin.location.href="http://lazyeun.github.io";
+        
+    });
+    
     
     $(document).ready(function(){
         typeTxt();

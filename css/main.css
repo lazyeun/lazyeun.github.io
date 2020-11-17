@@ -222,9 +222,9 @@ body{overflow-x: hidden;}
     flex-direction: column;
     border:1px solid #d2d2d2;
     font-family: 'Noto Sans KR', sans-serif;
+    cursor: pointer;
 }
-.go-detail-btn span{font-size:14px;}
-.go-detail-btn span>a{font-weight: 500; color:#555555;}
+.go-detail-btn span{font-size:14px; font-weight: 500; color:#555555;}
 
 /*1300px 미만*/
 @media (max-width:1300px){
