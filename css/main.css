@@ -43,6 +43,7 @@ body{overflow-x: hidden;}
 }
 .header .logo{
     letter-spacing: 3px;
+    z-index:200;
 }
 .header .menu{
     display:flex;
@@ -64,6 +65,7 @@ body{overflow-x: hidden;}
     top:50%;
     background:rgba(0,0,0,0.8);
 }
+
 /* 메인 */
 .section1{
     width:100%;

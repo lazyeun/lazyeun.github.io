@@ -146,8 +146,7 @@ $(document).ready(function(){
     
     //포트폴리오 바로가기
     $(".hanyul").click(function(){
-        var openNewWin = window.open("about:blank");
-        openNewWin.location.href="http://geekgirl.dothome.co.kr/hanyul/index.html";
+        var openNewWin = window.open("sub/portfolio1.html","_self");        
     });
     $(".deeps").click(function(){
         var openNewWin = window.open("about:blank");
@@ -155,12 +154,10 @@ $(document).ready(function(){
         
     });
     $(".terarosa").click(function(){
-        var openNewWin = window.open("about:blank");
-        openNewWin.location.href="http://geekgirl.dothome.co.kr/bootstrap/index.html";
-        
+        var openNewWin = window.open("sub/portfolio2.html","_self");
     });
     $(".ksure").click(function(){
-        var openNewWin = window.open("about:blank");
+        var openNewWin = "";
         openNewWin.location.href="http://geekgirl.dothome.co.kr/ksure/index.html";
         
     });
