@@ -297,64 +297,49 @@ body{overflow-x: hidden;}
     font-size:14px;
     white-space: nowrap;
 }
-.about-pic{
-    width:200px;
-    height:250px;
-    margin:0 auto;
-}
-.about-pic img{
-    width:80%;
-    margin:auto;
-    object-fit: contain;
-    object-position: center center;
-}
-.about-info, .about-keyword{text-align: center;}
-.about-keyword{
+.form-mail{
     width:100%;
-    height:3px;
+    font-family: 'Noto Serif KR', serif;
     text-transform: uppercase;
 }
-.keyword-bg{
-    width:80%;
-    height:100%;
-    display:block;
-    position:absolute;
-    left:10%;
-    bottom:-20px;
-    background:white;
+.form-mail h4{
+    padding:10px 0;
+    text-align: center;
 }
-
-/*contact*/
-.section5{
-    padding-top:100px;
-}
-.addr-group{
-    width:100%;
-    height:300px;
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.addr{
-    display:flex;
+.m-addr, .msg-group, .send-btn{
+    width:calc(100% - 20px);
+    margin:auto;
+    padding:20px 5px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    text-transform: uppercase;
 }
-.addr-title{
-    padding-right:10px;
-    font-family: 'Noto Serif KR', serif;
-    font-size:20px;
-    letter-spacing: 3px;
+.m-title{padding-right: 15px;}
+.m-addr input{
+    width:300px;
+    height:30px;
+    border:none;
+    margin-left:23px;
+    outline: none;
 }
-.addr span{
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size:14px;
-    font-weight: 300;
-    letter-spacing: 1px;
+.msg-group textarea{
+    width:300px;
+    height:200px;
+    border:none;
+    outline: none;
 }
-.email{text-transform: lowercase;}
+.send-btn button{
+    width:100px;
+    height:40px;
+    outline: none;
+    background:#772e78;
+    color:white;
+    border:none;
+    cursor: pointer;
+}
+
 .foot-msg{
+    padding-top:30px;
     padding-bottom:30px;
     text-transform: uppercase;
     text-align: center;

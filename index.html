@@ -193,9 +193,28 @@
                     </div>
                 </div>
                 <div class="about-box">
-<!--
--->
-                </div>
+                <!-- 폼메일 박스로 대체-->
+                   <div class="form-mail">
+                        <h4>send your message</h4>
+                        <form action="https://formspree.io/f/xeqpznee" method="POST">
+                          <div class="m-addr">
+                                <span class="m-title">your email</span>
+                               <label class="label">                                
+                                <input type="text" name="_replyto" class="mail-address">
+                              </label>
+                          </div>
+                          <div class="msg-group">
+                              <span class="m-title">your message</span>
+                              <label class="label">
+                                <textarea name="message" class="msg"></textarea>
+                              </label>
+                          </div>
+                          <div class="send-btn">                
+                              <button type="submit">Send</button>
+                          </div>
+                        </form>
+                    </div>
+               </div>
             </div>
         </div>
     </section>

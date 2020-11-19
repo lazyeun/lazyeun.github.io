@@ -127,8 +127,7 @@ $(document).ready(function(){
         //섹션별 top 값
         var s2_top = $(".section2").offset().top;
         var s3_top = $(".section3").offset().top;
-        var s4_top = $(".section4").offset().top;
-        var s5_top = $(".section5").offset().top;
+        var s4_top = $(".section4").offset().top;        
         menu_click();
         
         if(menu_inx == 0){
@@ -137,8 +136,6 @@ $(document).ready(function(){
             $("html").stop().animate({scrollTop:s3_top},500);
         }else if(menu_inx == 2){
             $("html").stop().animate({scrollTop:s4_top},500);
-        }else if(menu_inx == 3){
-            $("html").stop().animate({scrollTop:s5_top},500);
         }
         
     });
