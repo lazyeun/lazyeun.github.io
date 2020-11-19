@@ -60,8 +60,11 @@ $(document).ready(function(){
             $(".header").hide();
         }
         
+        console.log("scr_top :" + scr_top);
+        console.log("s3_top : " + s3_top);
+        
         //섹션3 스킬 애니메이션
-        if(scr_top >= s3_top && scr_top < s3_bottom){
+        if(scr_top >= s3_top-100){
         $(".chart1").easyPieChart({
             barColor: '#d4a9e2',  //차트가 그려질 색
             trackColor: '#eeeeee',  // 차트가 그려지는 트랙의 기본 배경색(chart1 의 회색부분)
