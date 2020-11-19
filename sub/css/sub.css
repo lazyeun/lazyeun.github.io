@@ -59,7 +59,8 @@ body{overflow-x: hidden;}
 }
 .mockup{margin:0 auto;}
 .mockup img{
-    width:100%;
+    width:80%;
+    margin:auto;
     object-fit: cover;
     object-position: center center;
 }
