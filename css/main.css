@@ -315,20 +315,25 @@ body{overflow-x: hidden;}
     width:calc(100% - 20px);
     margin:auto;
     padding:20px 5px;
+}
+.send-btn{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.m-title{padding-right: 15px;}
+.m-title{
+    display:block;
+    width:100%;
+    padding:10px 0;
+}
 .m-addr input{
-    width:300px;
+    width:100%;
     height:30px;
     border:none;
-    margin-left:23px;
     outline: none;
 }
 .msg-group textarea{
-    width:300px;
+    width:100%;
     height:200px;
     border:none;
     outline: none;
