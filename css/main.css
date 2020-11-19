@@ -378,5 +378,6 @@ body{overflow-x: hidden;}
     letter-spacing: 1px;
     background:#d6c4fa;
     border-radius: 50%;
+    display:none;
 }
 .top-btn a{color:white;}
