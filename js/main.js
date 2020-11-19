@@ -48,6 +48,9 @@ $(document).ready(function(){
             $(".top-btn").stop().fadeOut();
         }else{
             $(".top-btn").stop().fadeIn();
+            $(".top-btn").css({display:"flex",
+                               justifyContent: "center",
+                                alignItems: "center"});
         }
         
         //메뉴바 hide / show
@@ -164,12 +167,11 @@ $(document).ready(function(){
         openNewWin.location.href="http://geekgirl.dothome.co.kr/ksure/index.html";
         
     });
-    $(".lazyeun").click(function(){
-        var openNewWin = window.open("about:blank");
-        openNewWin.location.href="http://lazyeun.github.io";
-        
-    });
-    
+//    $(".lazyeun").click(function(){
+//        var openNewWin = window.open("about:blank");
+//        openNewWin.location.href="http://lazyeun.github.io";
+//        
+//    });
     
     $(document).ready(function(){
         typeTxt();
