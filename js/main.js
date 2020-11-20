@@ -160,9 +160,7 @@ $(document).ready(function(){
         var openNewWin = window.open("sub/portfolio2.html","_self");
     });
     $(".ksure").click(function(){
-        var openNewWin = window.open("about:blank");
-        openNewWin.location.href="http://geekgirl.dothome.co.kr/ksure/index.html";
-        
+        var openNewWin = window.open("sub/portfolio3.html","_self");
     });
 //    $(".lazyeun").click(function(){
 //        var openNewWin = window.open("about:blank");
